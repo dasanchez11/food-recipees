@@ -20,7 +20,7 @@ services:
       - DB_PASSWORD= dev-password
 
   database:
-    image: postgres:13-apline
+    image: postgres:13-alpine
     restart: always
     volumes:
       - dev-db-data:/var/lib/postgresql/data
